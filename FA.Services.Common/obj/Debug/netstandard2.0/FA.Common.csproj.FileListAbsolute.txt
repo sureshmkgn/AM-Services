@@ -1,0 +1,9 @@
+C:\FocusArea\DepandencyTracker\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.csproj.CoreCompileInputs.cache
+C:\FocusArea\DepandencyTracker\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.AssemblyInfoInputs.cache
+C:\FocusArea\DepandencyTracker\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.AssemblyInfo.cs
+C:\FocusArea\DepandencyTracker\FA.Services.Common\bin\Debug\netstandard2.0\FA.Common.deps.json
+C:\FocusArea\DepandencyTracker\FA.Services.Common\bin\Debug\netstandard2.0\FA.Common.dll
+C:\FocusArea\DepandencyTracker\FA.Services.Common\bin\Debug\netstandard2.0\FA.Common.pdb
+C:\FocusArea\DepandencyTracker\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.dll
+C:\FocusArea\DepandencyTracker\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.pdb
+C:\FocusArea\DepandencyTracker\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.csprojAssemblyReference.cache
