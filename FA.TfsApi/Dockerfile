@@ -1,6 +1,6 @@
 FROM microsoft/dotnet:2.2-aspnetcore-runtime
 WORKDIR /app
-COPY ./bin/Release/netcoreapp2.2/publish .
+COPY /home/vsts/work/1/a/FA.TfsApi .
 ENV ASPNETCORE_URLS http://*:5000
 ENV ASPNETCORE_ENVIRONMENT docker
 EXPOSE 5000
