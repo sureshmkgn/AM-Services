@@ -1,0 +1,13 @@
+D:\Code\Microservice\MSWorks\AM.Deployment\bin\Debug\netcoreapp3.1\AM.Deployment.exe
+D:\Code\Microservice\MSWorks\AM.Deployment\bin\Debug\netcoreapp3.1\AM.Deployment.deps.json
+D:\Code\Microservice\MSWorks\AM.Deployment\bin\Debug\netcoreapp3.1\AM.Deployment.runtimeconfig.json
+D:\Code\Microservice\MSWorks\AM.Deployment\bin\Debug\netcoreapp3.1\AM.Deployment.runtimeconfig.dev.json
+D:\Code\Microservice\MSWorks\AM.Deployment\bin\Debug\netcoreapp3.1\AM.Deployment.dll
+D:\Code\Microservice\MSWorks\AM.Deployment\bin\Debug\netcoreapp3.1\AM.Deployment.pdb
+D:\Code\Microservice\MSWorks\AM.Deployment\obj\Debug\netcoreapp3.1\AM.Deployment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Microservice\MSWorks\AM.Deployment\obj\Debug\netcoreapp3.1\AM.Deployment.AssemblyInfoInputs.cache
+D:\Code\Microservice\MSWorks\AM.Deployment\obj\Debug\netcoreapp3.1\AM.Deployment.AssemblyInfo.cs
+D:\Code\Microservice\MSWorks\AM.Deployment\obj\Debug\netcoreapp3.1\AM.Deployment.csproj.CoreCompileInputs.cache
+D:\Code\Microservice\MSWorks\AM.Deployment\obj\Debug\netcoreapp3.1\AM.Deployment.dll
+D:\Code\Microservice\MSWorks\AM.Deployment\obj\Debug\netcoreapp3.1\AM.Deployment.pdb
+D:\Code\Microservice\MSWorks\AM.Deployment\obj\Debug\netcoreapp3.1\AM.Deployment.genruntimeconfig.cache
