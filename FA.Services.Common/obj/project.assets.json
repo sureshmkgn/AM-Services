@@ -14468,9 +14468,9 @@
   "project": {
     "version": "2.0.2",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Common\\FA.Common.csproj",
+      "projectUniqueName": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Common\\AM.Common.csproj",
       "projectName": "FA.Common_",
-      "projectPath": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Common\\FA.Common.csproj",
+      "projectPath": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Common\\AM.Common.csproj",
       "packagesPath": "C:\\Users\\Suresh\\.nuget\\packages\\",
       "outputPath": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Common\\obj\\",
       "projectStyle": "PackageReference",

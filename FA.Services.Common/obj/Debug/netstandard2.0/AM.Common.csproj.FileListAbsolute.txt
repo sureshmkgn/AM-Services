@@ -1,0 +1,10 @@
+D:\Code\Microservice\MSWorks\FA.Services.Common\bin\Debug\netstandard2.0\FA.Common.deps.json
+D:\Code\Microservice\MSWorks\FA.Services.Common\bin\Debug\netstandard2.0\FA.Common.dll
+D:\Code\Microservice\MSWorks\FA.Services.Common\bin\Debug\netstandard2.0\FA.Common.pdb
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\AM.Common.csproj.AssemblyReference.cache
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\AM.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\AM.Common.AssemblyInfoInputs.cache
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\AM.Common.AssemblyInfo.cs
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\AM.Common.csproj.CoreCompileInputs.cache
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.dll
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.pdb

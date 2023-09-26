@@ -51,9 +51,7 @@ namespace FA.Api
                             .WithExposedHeaders(Headers));
             });
             services.RegisterServiceForwarder<IOperationsService>("operations-service");
-            services.RegisterServiceForwarder<ICustomersService>("customers-service");
-            services.RegisterServiceForwarder<IOrdersService>("orders-service");
-            services.RegisterServiceForwarder<IProductsService>("products-service");
+            services.RegisterServiceForwarder<IProjectsService>("projects-service");
             
             var builder = new ContainerBuilder();
             builder.RegisterAssemblyTypes(Assembly.GetEntryAssembly())

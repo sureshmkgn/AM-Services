@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\FA.Services.Identity.csproj": {}
+    "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\AM.Services.Identity.csproj": {}
   },
   "projects": {
     "D:\\Code\\Microservice\\MSWorks\\FA.Services.Common\\AM.Common.csproj": {
@@ -364,12 +364,12 @@
         }
       }
     },
-    "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\FA.Services.Identity.csproj": {
+    "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\AM.Services.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\FA.Services.Identity.csproj",
-        "projectName": "FA.Services.Identity",
-        "projectPath": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\FA.Services.Identity.csproj",
+        "projectUniqueName": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\AM.Services.Identity.csproj",
+        "projectName": "AM.Services.Identity",
+        "projectPath": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\AM.Services.Identity.csproj",
         "packagesPath": "C:\\Users\\Suresh\\.nuget\\packages\\",
         "outputPath": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\obj\\",
         "projectStyle": "PackageReference",

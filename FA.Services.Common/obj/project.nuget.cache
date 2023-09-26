@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/rF/Q+bOBP/bVKHs5UOWJtrr3miTdcifivai1bf/R17t6RY+H2L7smRiZf5mx+T3V3lJQJIWX+W5GEIHTClcPw==",
+  "dgSpecHash": "E04/f79NpfS87ClME4pSqaNKgZ3OVtULLNlAEpGeTYFP0a76NtPEYaV8a9j4GHOIqTj6VSnX3cMg9Nhf6PEukA==",
   "success": true,
-  "projectFilePath": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Common\\FA.Common.csproj",
+  "projectFilePath": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Common\\AM.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Suresh\\.nuget\\packages\\app.metrics\\3.0.0\\app.metrics.3.0.0.nupkg.sha512",
     "C:\\Users\\Suresh\\.nuget\\packages\\app.metrics.abstractions\\3.0.0\\app.metrics.abstractions.3.0.0.nupkg.sha512",

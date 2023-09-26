@@ -15217,8 +15217,8 @@
     },
     "FA.Common_/2.0.2": {
       "type": "project",
-      "path": "../FA.Services.Common/FA.Common.csproj",
-      "msbuildProject": "../FA.Services.Common/FA.Common.csproj"
+      "path": "../FA.Services.Common/AM.Common.csproj",
+      "msbuildProject": "../FA.Services.Common/AM.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -15235,9 +15235,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\FA.Services.Identity.csproj",
-      "projectName": "FA.Services.Identity",
-      "projectPath": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\FA.Services.Identity.csproj",
+      "projectUniqueName": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\AM.Services.Identity.csproj",
+      "projectName": "AM.Services.Identity",
+      "projectPath": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\AM.Services.Identity.csproj",
       "packagesPath": "C:\\Users\\Suresh\\.nuget\\packages\\",
       "outputPath": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Identity\\obj\\",
       "projectStyle": "PackageReference",
@@ -15261,8 +15261,8 @@
         "netcoreapp2.2": {
           "targetAlias": "netcoreapp2.2",
           "projectReferences": {
-            "D:\\Code\\Microservice\\MSWorks\\FA.Services.Common\\FA.Common.csproj": {
-              "projectPath": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Common\\FA.Common.csproj"
+            "D:\\Code\\Microservice\\MSWorks\\FA.Services.Common\\AM.Common.csproj": {
+              "projectPath": "D:\\Code\\Microservice\\MSWorks\\FA.Services.Common\\AM.Common.csproj"
             }
           }
         }

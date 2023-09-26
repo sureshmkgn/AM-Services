@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using RestEase;
-using FA.Api.Models.Operations;
+using FA.Api.Domain.Operations;
 
 namespace FA.Api.Services
 {
