@@ -1,4 +1,4 @@
-namespace FA.Common.Mvc
+namespace AM.Common.Mvc
 {
     public interface IServiceId
     {

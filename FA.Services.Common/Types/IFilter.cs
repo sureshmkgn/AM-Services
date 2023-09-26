@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace FA.Common.Types
+namespace AM.Common.Types
 {
     public interface IFilter<TResult, in TQuery> where TQuery : IQuery
     {

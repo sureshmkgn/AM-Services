@@ -1,7 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FA.Services.Identity.Controllers
+namespace AM.Services.Identity.Controllers
 {
     public class BaseController : ControllerBase
     {

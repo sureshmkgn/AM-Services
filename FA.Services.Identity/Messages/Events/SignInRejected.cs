@@ -1,8 +1,8 @@
 using System;
-using FA.Common.Messages;
+using AM.Common.Messages;
 using Newtonsoft.Json;
 
-namespace FA.Services.Identity.Messages.Events
+namespace AM.Services.Identity.Messages.Events
 {
     public class SignInRejected : IRejectedEvent
     {

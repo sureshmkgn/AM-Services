@@ -1,9 +1,9 @@
 using Autofac;
-using FA.Common.Types;
+using AM.Common.Types;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 
-namespace FA.Common.Mongo
+namespace AM.Common.Mongo
 {
     public static class Extensions
     {

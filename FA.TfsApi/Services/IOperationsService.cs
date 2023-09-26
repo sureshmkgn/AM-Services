@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
 using RestEase;
-using FA.Api.Domain.Operations;
+using AM.Api.Domain.Operations;
 
-namespace FA.Api.Services
+namespace AM.Api.Services
 {
     public interface IOperationsService
     {

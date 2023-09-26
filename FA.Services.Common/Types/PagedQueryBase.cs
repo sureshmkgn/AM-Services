@@ -1,4 +1,4 @@
-﻿namespace FA.Common.Types
+﻿namespace AM.Common.Types
 {
     public abstract class PagedQueryBase : IPagedQuery
     {

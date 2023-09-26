@@ -1,4 +1,4 @@
-namespace FA.Services.Identity
+namespace AM.Services.Identity
 {
     public static class Codes
     {

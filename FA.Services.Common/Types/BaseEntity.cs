@@ -1,6 +1,6 @@
 using System;
 
-namespace FA.Common.Types
+namespace AM.Common.Types
 {
     public abstract class BaseEntity : IIdentifiable
     {

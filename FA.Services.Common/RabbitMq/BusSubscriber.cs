@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
 using System.Threading.Tasks;
-using FA.Common.Handlers;
-using FA.Common.Messages;
-using FA.Common.Types;
+using AM.Common.Handlers;
+using AM.Common.Messages;
+using AM.Common.Types;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -12,7 +12,7 @@ using RawRabbit;
 using RawRabbit.Common;
 using RawRabbit.Enrichers.MessageContext;
 
-namespace FA.Common.RabbitMq
+namespace AM.Common.RabbitMq
 {
     public class BusSubscriber : IBusSubscriber
     {

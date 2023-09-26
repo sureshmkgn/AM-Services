@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace FA.Common.Messages
+namespace AM.Common.Messages
 {
     public class RejectedEvent : IRejectedEvent
     {

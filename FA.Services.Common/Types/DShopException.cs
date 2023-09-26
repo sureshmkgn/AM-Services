@@ -1,6 +1,6 @@
 using System;
 
-namespace FA.Common.Types
+namespace AM.Common.Types
 {
     public class DShopException : Exception
     {

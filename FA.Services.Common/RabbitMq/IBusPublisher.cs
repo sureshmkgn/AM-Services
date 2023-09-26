@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using FA.Common.Messages;
+using AM.Common.Messages;
 
-namespace FA.Common.RabbitMq
+namespace AM.Common.RabbitMq
 {
     public interface IBusPublisher
     {

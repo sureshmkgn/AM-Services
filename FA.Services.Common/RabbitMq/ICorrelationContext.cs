@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FA.Common.RabbitMq
+namespace AM.Common.RabbitMq
 {
     public interface ICorrelationContext
     {

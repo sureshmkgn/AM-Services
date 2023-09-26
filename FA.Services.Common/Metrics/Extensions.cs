@@ -5,7 +5,7 @@ using App.Metrics.AspNetCore.Health;
 using App.Metrics.Formatters.Prometheus;
 using Microsoft.AspNetCore.Hosting;
 
-namespace FA.Common.Metrics
+namespace AM.Common.Metrics
 {
     public static class Extensions
     {

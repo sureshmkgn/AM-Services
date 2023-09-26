@@ -3,8 +3,8 @@ using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 using Autofac;
-using FA.Common.Handlers;
-using FA.Common.Messages;
+using AM.Common.Handlers;
+using AM.Common.Messages;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using RawRabbit;
@@ -15,7 +15,7 @@ using RawRabbit.Instantiation;
 using RawRabbit.Pipe;
 using RawRabbit.Pipe.Middleware;
 
-namespace FA.Common.RabbitMq
+namespace AM.Common.RabbitMq
 {
     public static class Extensions
     {

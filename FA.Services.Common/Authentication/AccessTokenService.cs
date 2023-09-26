@@ -6,7 +6,7 @@ using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Primitives;
 
-namespace FA.Common.Authentication
+namespace AM.Common.Authentication
 {
     public class AccessTokenService : IAccessTokenService
     {

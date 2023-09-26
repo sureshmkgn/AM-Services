@@ -1,6 +1,6 @@
 using System;
 
-namespace FA.Api.Queries
+namespace AM.Api.Queries
 {
     public class BrowseProjects : PagedQuery
     {

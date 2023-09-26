@@ -1,8 +1,8 @@
 using System;
-using FA.Common.Messages;
+using AM.Common.Messages;
 using Newtonsoft.Json;
 
-namespace FA.Api.Messages.Commands.Products
+namespace AM.Api.Messages.Commands.Products
 {
     [MessageNamespace("projects")]
 	public class DeleteProject : ICommand

@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace FA.Common.RestEase
+namespace AM.Common.RestEase
 {
     public class QueryParamSerializer : RequestQueryParamSerializer
     {

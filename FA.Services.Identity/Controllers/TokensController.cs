@@ -1,12 +1,12 @@
 using System.Threading.Tasks;
-using FA.Common.Authentication;
-using FA.Common.Mvc;
-using FA.Services.Identity.Messages.Commands;
-using FA.Services.Identity.Services;
+using AM.Common.Authentication;
+using AM.Common.Mvc;
+using AM.Services.Identity.Messages.Commands;
+using AM.Services.Identity.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FA.Services.Identity.Controllers
+namespace AM.Services.Identity.Controllers
 {
     [Route("")]
     [ApiController]

@@ -1,6 +1,6 @@
-using FA.Common.Authentication;
+using AM.Common.Authentication;
 
-namespace FA.Api.Framework
+namespace AM.Api.Framework
 {
     public class AdminAuth : JwtAuthAttribute
     {

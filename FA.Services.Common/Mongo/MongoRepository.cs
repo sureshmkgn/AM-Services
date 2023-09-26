@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using FA.Common.Types;
+using AM.Common.Types;
 using MongoDB.Driver;
 using MongoDB.Driver.Linq;
 
-namespace FA.Common.Mongo
+namespace AM.Common.Mongo
 {
     public class MongoRepository<TEntity> : IMongoRepository<TEntity> where TEntity : IIdentifiable
     {

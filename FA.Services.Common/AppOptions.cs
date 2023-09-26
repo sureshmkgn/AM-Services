@@ -1,4 +1,4 @@
-namespace FA.Common
+namespace AM.Common
 {
     public class AppOptions
     {

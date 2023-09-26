@@ -1,15 +1,15 @@
 using System;
 using System.Threading.Tasks;
-using FA.Common.Authentication;
-using FA.Common.RabbitMq;
-using FA.Common.Types;
-using FA.Services.Identity.Messages.Events;
-using FA.Services.Identity.Domain;
-using FA.Services.Identity.Repositories;
+using AM.Common.Authentication;
+using AM.Common.RabbitMq;
+using AM.Common.Types;
+using AM.Services.Identity.Messages.Events;
+using AM.Services.Identity.Domain;
+using AM.Services.Identity.Repositories;
 using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
 
-namespace FA.Services.Identity.Services
+namespace AM.Services.Identity.Services
 {
     public class IdentityService : IIdentityService
     {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace FA.Common.Metrics
+namespace AM.Common.Metrics
 {
     public class MetricsOptions
     {

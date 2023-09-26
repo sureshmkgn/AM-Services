@@ -4,23 +4,23 @@ using System.Reflection;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Consul;
-using FA.Api.Services;
-using FA.Common;
-using FA.Common.Authentication;
-using FA.Common.Consul;
-using FA.Common.Dispatchers;
-using FA.Common.Mvc;
-using FA.Common.RabbitMq;
-using FA.Common.Redis;
-using FA.Common.RestEase;
-using FA.Common.Swagger;
+using AM.Api.Services;
+using AM.Common;
+using AM.Common.Authentication;
+using AM.Common.Consul;
+using AM.Common.Dispatchers;
+using AM.Common.Mvc;
+using AM.Common.RabbitMq;
+using AM.Common.Redis;
+using AM.Common.RestEase;
+using AM.Common.Swagger;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FA.Api
+namespace AM.Api
 {
     public class Startup
     {

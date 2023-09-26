@@ -6,7 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 
-namespace FA.Common.Authentication
+namespace AM.Common.Authentication
 {
     public class JwtHandler : IJwtHandler
     {

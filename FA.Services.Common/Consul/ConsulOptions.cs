@@ -1,4 +1,4 @@
-namespace FA.Common.Consul
+namespace AM.Common.Consul
 {
     public class ConsulOptions
     {

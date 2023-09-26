@@ -1,16 +1,16 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using FA.Api.Framework;
-using FA.Common.Authentication;
-using FA.Common.Messages;
-using FA.Common.RabbitMq;
-using FA.Common.Types;
+using AM.Api.Framework;
+using AM.Common.Authentication;
+using AM.Common.Messages;
+using AM.Common.RabbitMq;
+using AM.Common.Types;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FA.Api.Controllers
+namespace AM.Api.Controllers
 {
     [Route("[controller]")]
     [ApiController]

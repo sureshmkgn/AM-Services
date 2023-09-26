@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using FA.Common.Authentication;
+using AM.Common.Authentication;
 
-namespace FA.Services.Identity.Services
+namespace AM.Services.Identity.Services
 {
     public interface IRefreshTokenService
     {

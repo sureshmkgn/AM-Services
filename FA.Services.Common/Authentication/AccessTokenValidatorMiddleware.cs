@@ -2,7 +2,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace FA.Common.Authentication
+namespace AM.Common.Authentication
 {
     public class AccessTokenValidatorMiddleware : IMiddleware
     {

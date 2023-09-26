@@ -1,8 +1,8 @@
 ﻿using System;
-using FA.Common.Messages;
-using FA.Common.Types;
+using AM.Common.Messages;
+using AM.Common.Types;
 
-namespace FA.Common.RabbitMq
+namespace AM.Common.RabbitMq
 {
     public interface IBusSubscriber
     {

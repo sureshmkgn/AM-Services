@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace FA.Common.Swagger
+namespace AM.Common.Swagger
 {
     public static class Extensions
     {

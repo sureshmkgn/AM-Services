@@ -1,12 +1,12 @@
 using System;
-using FA.Common.Mvc;
+using AM.Common.Mvc;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Memory;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json.Linq;
 
-namespace FA.Common.Vault
+namespace AM.Common.Vault
 {
     public static class Extensions
     {

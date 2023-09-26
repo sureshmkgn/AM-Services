@@ -1,4 +1,4 @@
-namespace FA.Api.Queries
+namespace AM.Api.Queries
 {
     public abstract class PagedQuery
     {

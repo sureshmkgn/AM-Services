@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace FA.Common.RabbitMq
+namespace AM.Common.RabbitMq
 {
     public class CorrelationContext : ICorrelationContext
     {

@@ -1,4 +1,4 @@
-namespace FA.Common.Vault
+namespace AM.Common.Vault
 {
     public class VaultOptions
     {

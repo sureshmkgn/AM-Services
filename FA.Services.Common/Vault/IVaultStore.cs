@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace FA.Common.Vault
+namespace AM.Common.Vault
 {
     public interface IVaultStore
     {

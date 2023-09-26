@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Consul;
 
-namespace FA.Common.Consul
+namespace AM.Common.Consul
 {
     public class ConsulServicesRegistry : IConsulServicesRegistry
     {

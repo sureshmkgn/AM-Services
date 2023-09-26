@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FA.Common.Fabio
+namespace AM.Common.Fabio
 {
     public static class Extensions
     {

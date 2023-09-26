@@ -1,10 +1,10 @@
 using System.Threading.Tasks;
 using Autofac;
-using FA.Common.Handlers;
-using FA.Common.Messages;
-using FA.Common.RabbitMq;
+using AM.Common.Handlers;
+using AM.Common.Messages;
+using AM.Common.RabbitMq;
 
-namespace FA.Common.Dispatchers
+namespace AM.Common.Dispatchers
 {
     public class CommandDispatcher : ICommandDispatcher
     {

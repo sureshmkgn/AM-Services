@@ -1,7 +1,7 @@
 using System.Linq;
 using Microsoft.Extensions.Configuration;
 
-namespace FA.Common
+namespace AM.Common
 {
     public static class Extensions
     {

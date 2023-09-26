@@ -1,6 +1,6 @@
 using RawRabbit.Configuration;
 
-namespace FA.Common.RabbitMq
+namespace AM.Common.RabbitMq
 {
     public class RabbitMqOptions : RawRabbitConfiguration
     {

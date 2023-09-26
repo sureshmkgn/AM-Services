@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace FA.Common.RestEase
+namespace AM.Common.RestEase
 {
     public class RestEaseOptions
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace FA.Common.RestEase
+namespace AM.Common.RestEase
 {
     public class RestEaseServiceNotFoundException : Exception
     {

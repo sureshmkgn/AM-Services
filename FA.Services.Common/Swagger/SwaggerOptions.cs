@@ -1,4 +1,4 @@
-namespace FA.Common.Swagger
+namespace AM.Common.Swagger
 {
     public class SwaggerOptions
     {

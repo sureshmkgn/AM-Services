@@ -1,4 +1,4 @@
-namespace FA.Common.Fabio
+namespace AM.Common.Fabio
 {
     public class FabioOptions
     {

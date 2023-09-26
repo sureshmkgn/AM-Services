@@ -1,6 +1,6 @@
 using System;
 
-namespace FA.Common.Mvc
+namespace AM.Common.Mvc
 {
     public class ServiceId : IServiceId
     {

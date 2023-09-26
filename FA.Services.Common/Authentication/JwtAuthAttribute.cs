@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
-namespace FA.Common.Authentication
+namespace AM.Common.Authentication
 {
     public class JwtAuthAttribute : AuthAttribute
     {

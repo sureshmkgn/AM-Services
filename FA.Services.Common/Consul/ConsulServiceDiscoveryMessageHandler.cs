@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using Polly;
 
-namespace FA.Common.Consul
+namespace AM.Common.Consul
 {
     public class ConsulServiceDiscoveryMessageHandler : DelegatingHandler
     {

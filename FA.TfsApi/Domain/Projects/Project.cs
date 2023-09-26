@@ -1,6 +1,6 @@
 using System;
 
-namespace FA.Api.Domain.Products
+namespace AM.Api.Domain.Products
 {
     public class Project
     {

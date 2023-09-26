@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace FA.Common.Authentication
+namespace AM.Common.Authentication
 {
     public class JsonWebTokenPayload
     {

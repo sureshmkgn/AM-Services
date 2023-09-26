@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 
-namespace FA.Common.Authentication
+namespace AM.Common.Authentication
 {
     public static class Extensions
     {

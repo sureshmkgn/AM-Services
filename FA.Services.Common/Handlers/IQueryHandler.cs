@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using FA.Common.Types;
+using AM.Common.Types;
 
-namespace FA.Common.Handlers
+namespace AM.Common.Handlers
 {
     public interface IQueryHandler<TQuery,TResult> where TQuery : IQuery<TResult>
     {

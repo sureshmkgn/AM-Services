@@ -1,6 +1,6 @@
 using System;
 
-namespace FA.Api.Domain.Identity
+namespace AM.Api.Domain.Identity
 {
     public class User
     {

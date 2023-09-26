@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace FA.Services.Identity.Messages.Commands
+namespace AM.Services.Identity.Messages.Commands
 {
     public class SignUp
     {

@@ -1,10 +1,10 @@
 using System.Reflection;
 using System.Threading.Tasks;
-using FA.Common.Messages;
+using AM.Common.Messages;
 using RawRabbit;
 using RawRabbit.Enrichers.MessageContext;
 
-namespace FA.Common.RabbitMq
+namespace AM.Common.RabbitMq
 {
     public class BusPublisher : IBusPublisher
     {

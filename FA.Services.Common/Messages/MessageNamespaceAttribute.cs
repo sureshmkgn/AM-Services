@@ -1,6 +1,6 @@
 using System;
 
-namespace FA.Common.Messages
+namespace AM.Common.Messages
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class MessageNamespaceAttribute : Attribute

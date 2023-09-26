@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using FA.Common.Types;
+using AM.Common.Types;
 using MongoDB.Driver;
 using MongoDB.Driver.Linq;
 
-namespace FA.Common.Mongo
+namespace AM.Common.Mongo
 {
     public static class Pagination
     {

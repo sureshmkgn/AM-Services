@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using FA.Services.Identity.Domain;
+using AM.Services.Identity.Domain;
 
-namespace FA.Services.Identity.Repositories
+namespace AM.Services.Identity.Repositories
 {
     public interface IRefreshTokenRepository
     {

@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace FA.Common.Consul
+namespace AM.Common.Consul
 {
     public interface IConsulHttpClient
     {

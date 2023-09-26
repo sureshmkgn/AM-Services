@@ -3,16 +3,16 @@ using System.Reflection;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Consul;
-using FA.Common;
-using FA.Common.Authentication;
-using FA.Common.Consul;
-using FA.Common.Dispatchers;
-using FA.Common.Mongo;
-using FA.Common.Mvc;
-using FA.Common.RabbitMq;
-using FA.Common.Redis;
-using FA.Common.Swagger;
-using FA.Services.Identity.Domain;
+using AM.Common;
+using AM.Common.Authentication;
+using AM.Common.Consul;
+using AM.Common.Dispatchers;
+using AM.Common.Mongo;
+using AM.Common.Mvc;
+using AM.Common.RabbitMq;
+using AM.Common.Redis;
+using AM.Common.Swagger;
+using AM.Services.Identity.Domain;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -21,7 +21,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace FA.Services.Identity
+namespace AM.Services.Identity
 {
     public class Startup
     {

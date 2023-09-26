@@ -1,14 +1,14 @@
 using System;
 using System.Linq;
 using System.Net.Http;
-using FA.Common.Consul;
-using FA.Common.Fabio;
+using AM.Common.Consul;
+using AM.Common.Fabio;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using RestEase;
 
-namespace FA.Common.RestEase
+namespace AM.Common.RestEase
 {
     public static class Extensions
     {

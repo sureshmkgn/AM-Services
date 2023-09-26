@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using Polly;
 
-namespace FA.Common.Fabio
+namespace AM.Common.Fabio
 {
     public class FabioMessageHandler : DelegatingHandler
     {

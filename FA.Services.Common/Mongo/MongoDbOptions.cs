@@ -1,4 +1,4 @@
-namespace FA.Common.Mongo
+namespace AM.Common.Mongo
 {
     public class MongoDbOptions
     {

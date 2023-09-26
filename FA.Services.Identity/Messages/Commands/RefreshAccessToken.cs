@@ -1,7 +1,7 @@
-using FA.Common.Messages;
+using AM.Common.Messages;
 using Newtonsoft.Json;
 
-namespace FA.Services.Identity.Messages.Commands
+namespace AM.Services.Identity.Messages.Commands
 {
     public class RefreshAccessToken : ICommand
     {

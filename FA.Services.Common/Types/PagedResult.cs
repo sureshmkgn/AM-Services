@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace FA.Common.Types
+namespace AM.Common.Types
 {
     public class PagedResult<T> : PagedResultBase
     {

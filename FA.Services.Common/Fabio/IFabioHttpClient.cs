@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace FA.Common.Fabio
+namespace AM.Common.Fabio
 {
     public interface IFabioHttpClient
     {

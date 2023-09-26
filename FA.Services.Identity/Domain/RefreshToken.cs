@@ -1,8 +1,8 @@
 using System;
-using FA.Common.Types;
+using AM.Common.Types;
 using Microsoft.AspNetCore.Identity;
 
-namespace FA.Services.Identity.Domain
+namespace AM.Services.Identity.Domain
 {
     public class RefreshToken : IIdentifiable
     {

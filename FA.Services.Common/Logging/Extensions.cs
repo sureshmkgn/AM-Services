@@ -4,7 +4,7 @@ using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.Elasticsearch;
 
-namespace FA.Common.Logging
+namespace AM.Common.Logging
 {
     public static class Extensions
     {

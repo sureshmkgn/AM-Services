@@ -6,7 +6,7 @@ using MongoDB.Bson.Serialization.Conventions;
 using MongoDB.Bson.Serialization.Serializers;
 using MongoDB.Driver;
 
-namespace FA.Common.Mongo
+namespace AM.Common.Mongo
 {
     public class MongoDbInitializer : IMongoDbInitializer
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace FA.Common.Vault
+namespace AM.Common.Vault
 {
     public class VaultAuthTypeNotSupportedException : Exception
     {

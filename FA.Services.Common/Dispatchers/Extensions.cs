@@ -1,6 +1,6 @@
 using Autofac;
 
-namespace FA.Common.Dispatchers
+namespace AM.Common.Dispatchers
 {
     public static class Extensions
     {

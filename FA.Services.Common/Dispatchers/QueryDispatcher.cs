@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
 using Autofac;
-using FA.Common.Handlers;
-using FA.Common.Types;
+using AM.Common.Handlers;
+using AM.Common.Types;
 
-namespace FA.Common.Dispatchers
+namespace AM.Common.Dispatchers
 {
     public class QueryDispatcher : IQueryDispatcher
     {

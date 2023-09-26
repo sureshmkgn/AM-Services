@@ -1,8 +1,8 @@
-using FA.Common.RabbitMq;
+using AM.Common.RabbitMq;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FA.Api.Controllers
+namespace AM.Api.Controllers
 {
     [Route("")]
     public class HomeController : BaseController

@@ -1,4 +1,4 @@
-namespace FA.Services.Identity.Domain
+namespace AM.Services.Identity.Domain
 {
     public static class Role
     {

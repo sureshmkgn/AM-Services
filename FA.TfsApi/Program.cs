@@ -1,12 +1,12 @@
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using FA.Common.Logging;
-using FA.Common.Metrics;
-using FA.Common.Mvc;
-using FA.Common.Vault;
+using AM.Common.Logging;
+using AM.Common.Metrics;
+using AM.Common.Mvc;
+using AM.Common.Vault;
 using System;
 
-namespace FA.Api
+namespace AM.Api
 {
     public class Program
     {

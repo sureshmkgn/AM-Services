@@ -1,12 +1,12 @@
-﻿using FA.Common.Types;
-using FA.Api.Domain.Products;
-using FA.Api.Queries;
+﻿using AM.Common.Types;
+using AM.Api.Domain.Products;
+using AM.Api.Queries;
 using RestEase;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace FA.Api.Services
+namespace AM.Api.Services
 {
     [SerializationMethods(Query = QuerySerializationMethod.Serialized)]
     public interface IProjectsService

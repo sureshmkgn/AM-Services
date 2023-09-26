@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FA.Common
+namespace AM.Common
 {
     public class StartupInitializer : IStartupInitializer
     {

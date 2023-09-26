@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
-using FA.Common.Authentication;
-using FA.Services.Identity.Domain;
+using AM.Common.Authentication;
+using AM.Services.Identity.Domain;
 
-namespace FA.Services.Identity.Services
+namespace AM.Services.Identity.Services
 {
     public interface IIdentityService
     {

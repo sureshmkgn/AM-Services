@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
-using FA.Common.Mongo;
-using FA.Services.Identity.Domain;
+using AM.Common.Mongo;
+using AM.Services.Identity.Domain;
 using MongoDB.Driver;
 using MongoDB.Driver.Linq;
 
-namespace FA.Services.Identity.Repositories
+namespace AM.Services.Identity.Repositories
 {
     public class UserRepository : IUserRepository
     {

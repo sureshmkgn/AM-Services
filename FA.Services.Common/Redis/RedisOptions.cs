@@ -1,4 +1,4 @@
-namespace FA.Common.Redis
+namespace AM.Common.Redis
 {
     public class RedisOptions
     {

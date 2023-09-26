@@ -1,4 +1,4 @@
-﻿namespace FA.Common.MailKit
+﻿namespace AM.Common.MailKit
 {
     public class MailKitOptions
     {

@@ -1,13 +1,13 @@
 using System;
 using Consul;
-using FA.Common.Fabio;
-using FA.Common.Mvc;
+using AM.Common.Fabio;
+using AM.Common.Mvc;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace FA.Common.Consul
+namespace AM.Common.Consul
 {
     public static class Extensions
     {

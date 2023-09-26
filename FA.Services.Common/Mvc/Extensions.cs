@@ -13,7 +13,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpOverrides;
 
-namespace FA.Common.Mvc
+namespace AM.Common.Mvc
 {
     public static class Extensions
     {

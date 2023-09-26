@@ -1,4 +1,4 @@
-namespace FA.Common.Messages
+namespace AM.Common.Messages
 {
     //Marker
     public interface IEvent : IMessage

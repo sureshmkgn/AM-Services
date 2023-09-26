@@ -1,6 +1,6 @@
 using System;
 
-namespace FA.Api.Domain.Operations
+namespace AM.Api.Domain.Operations
 {
     public class Operation
     {

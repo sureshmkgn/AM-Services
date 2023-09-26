@@ -1,12 +1,12 @@
 using System;
 using System.Net;
 using System.Threading.Tasks;
-using FA.Common.Types;
+using AM.Common.Types;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace FA.Common.Mvc
+namespace AM.Common.Mvc
 {
     public class ErrorHandlerMiddleware
     {

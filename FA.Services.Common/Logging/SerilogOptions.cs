@@ -1,4 +1,4 @@
-namespace FA.Common.Logging
+namespace AM.Common.Logging
 {
     public class SerilogOptions
     {

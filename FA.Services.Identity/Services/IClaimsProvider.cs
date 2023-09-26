@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace FA.Services.Identity.Services
+namespace AM.Services.Identity.Services
 {
     public interface IClaimsProvider
     {

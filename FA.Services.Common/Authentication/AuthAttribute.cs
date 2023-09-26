@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 
-namespace FA.Common.Authentication
+namespace AM.Common.Authentication
 {
     public class AuthAttribute : AuthorizeAttribute
     {

@@ -1,13 +1,13 @@
-﻿using FA.Api.Services;
-using FA.Common.RabbitMq;
-using FA.Api.Messages.Commands;
-using FA.Api.Queries;
+﻿using AM.Api.Services;
+using AM.Common.RabbitMq;
+using AM.Api.Messages.Commands;
+using AM.Api.Queries;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 
-namespace FA.Api.Controllers
+namespace AM.Api.Controllers
 {
     [AllowAnonymous]
     public class OperationsController : BaseController

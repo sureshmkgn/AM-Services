@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace FA.Common.Authentication
+namespace AM.Common.Authentication
 {
     public interface IAccessTokenService
     {

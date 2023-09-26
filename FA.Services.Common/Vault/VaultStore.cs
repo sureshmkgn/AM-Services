@@ -7,7 +7,7 @@ using VaultSharp.V1.AuthMethods;
 using VaultSharp.V1.AuthMethods.Token;
 using VaultSharp.V1.AuthMethods.UserPass;
 
-namespace FA.Common.Vault
+namespace AM.Common.Vault
 {
     public class VaultStore : IVaultStore
     {

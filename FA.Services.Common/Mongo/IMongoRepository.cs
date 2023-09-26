@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using FA.Common.Types;
+using AM.Common.Types;
 
-namespace FA.Common.Mongo
+namespace AM.Common.Mongo
 {
     public interface IMongoRepository<TEntity> where TEntity : IIdentifiable
     {

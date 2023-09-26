@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using Microsoft.Extensions.Configuration;
 
-namespace FA.Common.MailKit
+namespace AM.Common.MailKit
 {
     public static class Extensions
     {

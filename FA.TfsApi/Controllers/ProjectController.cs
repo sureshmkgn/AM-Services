@@ -1,17 +1,17 @@
-﻿using FA.Api.Services;
-using FA.Common.RabbitMq;
-using FA.Api.Messages.Commands;
-using FA.Api.Queries;
+﻿using AM.Api.Services;
+using AM.Common.RabbitMq;
+using AM.Api.Messages.Commands;
+using AM.Api.Queries;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RestEase;
 using System;
 using System.Threading.Tasks;
-using FA.Common.Mvc;
-using FA.Api.Framework;
-using FA.Api.Messages.Commands.Products;
+using AM.Common.Mvc;
+using AM.Api.Framework;
+using AM.Api.Messages.Commands.Products;
 
-namespace FA.Api.Controllers
+namespace AM.Api.Controllers
 {
     [AdminAuth]
     public class ProjectController : BaseController

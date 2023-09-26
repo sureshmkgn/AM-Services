@@ -1,8 +1,8 @@
-using FA.Common.RabbitMq;
-using FA.Common.Messages;
+using AM.Common.RabbitMq;
+using AM.Common.Messages;
 using System.Threading.Tasks;
 
-namespace FA.Common.Handlers
+namespace AM.Common.Handlers
 {
     public interface IEventHandler<in TEvent> where TEvent : IEvent
     {

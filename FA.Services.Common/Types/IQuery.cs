@@ -1,4 +1,4 @@
-﻿namespace FA.Common.Types
+﻿namespace AM.Common.Types
 {
     //Marker
     public interface IQuery

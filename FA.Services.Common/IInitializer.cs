@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace FA.Common
+namespace AM.Common
 {
     public interface IInitializer
     {

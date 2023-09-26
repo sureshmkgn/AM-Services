@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FA.Common.Redis
+namespace AM.Common.Redis
 {
     public static class Extensions
     {

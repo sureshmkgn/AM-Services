@@ -1,6 +1,6 @@
 using System;
 
-namespace FA.Common.Consul
+namespace AM.Common.Consul
 {
     public class ConsulServiceNotFoundException : Exception
     {
