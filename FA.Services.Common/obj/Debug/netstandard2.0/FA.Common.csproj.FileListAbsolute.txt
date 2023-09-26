@@ -7,3 +7,13 @@ C:\FocusArea\DepandencyTracker\FA.Services.Common\bin\Debug\netstandard2.0\FA.Co
 C:\FocusArea\DepandencyTracker\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.dll
 C:\FocusArea\DepandencyTracker\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.pdb
 C:\FocusArea\DepandencyTracker\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.csprojAssemblyReference.cache
+D:\Code\Microservice\MSWorks\FA.Services.Common\bin\Debug\netstandard2.0\FA.Common.deps.json
+D:\Code\Microservice\MSWorks\FA.Services.Common\bin\Debug\netstandard2.0\FA.Common.dll
+D:\Code\Microservice\MSWorks\FA.Services.Common\bin\Debug\netstandard2.0\FA.Common.pdb
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.csproj.AssemblyReference.cache
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.AssemblyInfoInputs.cache
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.AssemblyInfo.cs
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.csproj.CoreCompileInputs.cache
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.dll
+D:\Code\Microservice\MSWorks\FA.Services.Common\obj\Debug\netstandard2.0\FA.Common.pdb
