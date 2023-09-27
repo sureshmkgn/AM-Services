@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AM.Deployment": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

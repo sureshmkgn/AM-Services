@@ -1,0 +1,12 @@
+name: dockercompose9571721505418699231
+services:
+  am.deployment:
+    build:
+      context: D:\Code\Microservice\MSWorks
+      dockerfile: AM.Deployment/Dockerfile
+    image: amdeployment
+    networks:
+      default: null
+networks:
+  default:
+    name: dockercompose9571721505418699231_default

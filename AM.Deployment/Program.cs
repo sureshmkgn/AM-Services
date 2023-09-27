@@ -6,7 +6,7 @@ namespace AM.Deployment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Deployment Project!");
         }
     }
 }

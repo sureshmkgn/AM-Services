@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  
+  am.services.identity:
+    image: ${DOCKER_REGISTRY-}amservicesidentity
+    build:
+      context: .
+      dockerfile: AM.Services.Identity/Dockerfile
+
+
+  am.project:
+    image: ${DOCKER_REGISTRY-}amproject
+    build:
+      context: .
+      dockerfile: AM.Project/Dockerfile
+
