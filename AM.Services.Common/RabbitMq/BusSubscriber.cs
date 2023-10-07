@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Reflection;
 using System.Threading.Tasks;
 using AM.Common.Handlers;
@@ -35,15 +36,23 @@ namespace AM.Common.RabbitMq
         }
 
         public IBusSubscriber SubscribeCommand<TCommand>(string @namespace = null, string queueName = null,
-            Func<TCommand, DShopException, IRejectedEvent> onError = null)
+            Func<TCommand, AMException, IRejectedEvent> onError = null)
             where TCommand : ICommand
         {
-            _busClient.SubscribeAsync<TCommand, CorrelationContext>(async (command, correlationContext) =>
-                {
-                    var commandHandler = _serviceProvider.GetService<ICommandHandler<TCommand>>();
 
-                    return await TryHandleAsync(command, correlationContext,
+
+              _busClient.SubscribeAsync<TCommand, CorrelationContext>(async (command, correlationContext) =>
+                {
+                  var commandHandler = _serviceProvider.GetService<ICommandHandler<TCommand>>();
+                    
+                    var task = TryHandleAsync(command, correlationContext,
                         () => commandHandler.HandleAsync(command, correlationContext), onError);
+
+
+                    return await task;
+                    
+                    /*TryHandleAsync(command, correlationContext,
+                        () => commandHandler.HandleAsync(command, correlationContext), onError);*/
                 },
                 ctx => ctx.UseSubscribeConfiguration(cfg =>
                     cfg.FromDeclaredQueue(q => q.WithName(GetQueueName<TCommand>(@namespace, queueName)))));
@@ -52,7 +61,7 @@ namespace AM.Common.RabbitMq
         }
 
         public IBusSubscriber SubscribeEvent<TEvent>(string @namespace = null, string queueName = null,
-            Func<TEvent, DShopException, IRejectedEvent> onError = null)
+            Func<TEvent, AMException, IRejectedEvent> onError = null)
             where TEvent : IEvent
         {
             _busClient.SubscribeAsync<TEvent, CorrelationContext>(async (@event, correlationContext) =>
@@ -72,7 +81,7 @@ namespace AM.Common.RabbitMq
         // It does not interfere with the routing keys and wildcards (see TryHandleWithRequeuingAsync() below).
         private async Task<Acknowledgement> TryHandleAsync<TMessage>(TMessage message,
             CorrelationContext correlationContext,
-            Func<Task> handle, Func<TMessage, DShopException, IRejectedEvent> onError = null)
+            Func<Task> handle, Func<TMessage, AMException, IRejectedEvent> onError = null)
         {
             var currentRetry = 0;
             var retryPolicy = Policy
@@ -102,7 +111,7 @@ namespace AM.Common.RabbitMq
                 {
                     currentRetry++;
                     _logger.LogError(exception, exception.Message);
-                    if (exception is DShopException dShopException && onError != null)
+                    if (exception is AMException dShopException && onError != null)
                     {
                         var rejectedEvent = onError(message, dShopException);
                         await _busClient.PublishAsync(rejectedEvent, ctx => ctx.UseMessageContext(correlationContext));
@@ -123,7 +132,7 @@ namespace AM.Common.RabbitMq
         // Keep in mind that it might get processed by the other services using the same routing key and wildcards.
         private async Task<Acknowledgement> TryHandleWithRequeuingAsync<TMessage>(TMessage message,
             CorrelationContext correlationContext,
-            Func<Task> handle, Func<TMessage, DShopException, IRejectedEvent> onError = null)
+            Func<Task> handle, Func<TMessage, AMException, IRejectedEvent> onError = null)
         {
             var messageName = message.GetType().Name;
             var retryMessage = correlationContext.Retries == 0
@@ -143,7 +152,7 @@ namespace AM.Common.RabbitMq
             catch (Exception exception)
             {
                 _logger.LogError(exception, exception.Message);
-                if (exception is DShopException dShopException && onError != null)
+                if (exception is AMException dShopException && onError != null)
                 {
                     var rejectedEvent = onError(message, dShopException);
                     await _busClient.PublishAsync(rejectedEvent, ctx => ctx.UseMessageContext(correlationContext));

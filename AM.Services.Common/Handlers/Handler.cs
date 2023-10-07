@@ -10,7 +10,7 @@ namespace AM.Common.Handlers
         private Func<Task> _onSuccess;
         private Func<Task> _always;
         private Func<Exception, Task> _onError;
-        private Func<DShopException, Task> _onCustomError;
+        private Func<AMException, Task> _onCustomError;
         private bool _rethrowException;
         private bool _rethrowCustomException;
 
@@ -48,7 +48,7 @@ namespace AM.Common.Handlers
             return this;
         }
 
-        public IHandler OnCustomError(Func<DShopException, Task> onCustomError, bool rethrow = false)
+        public IHandler OnCustomError(Func<AMException, Task> onCustomError, bool rethrow = false)
         {
             _onCustomError = onCustomError;
             _rethrowCustomException = rethrow;
@@ -64,7 +64,7 @@ namespace AM.Common.Handlers
             {
                 await _handle();
             }
-            catch (DShopException customException)
+            catch (AMException customException)
             {
                 isFailure = true;
                 await _onCustomError?.Invoke(customException);

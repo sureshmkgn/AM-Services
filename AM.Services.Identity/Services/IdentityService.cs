@@ -40,7 +40,7 @@ namespace AM.Services.Identity.Services
             var user = await _userRepository.GetAsync(email);
             if (user != null)
             {
-                throw new DShopException(Codes.EmailInUse,
+                throw new AMException(Codes.EmailInUse,
                     $"Email: '{email}' is already in use.");
             }
             if (string.IsNullOrWhiteSpace(role))
@@ -58,7 +58,7 @@ namespace AM.Services.Identity.Services
             var user = await _userRepository.GetAsync(email);
             if (user == null || !user.ValidatePassword(password, _passwordHasher))
             {
-                throw new DShopException(Codes.InvalidCredentials,
+                throw new AMException(Codes.InvalidCredentials,
                     "Invalid credentials.");
             }
             var refreshToken = new RefreshToken(user, _passwordHasher);
@@ -75,12 +75,12 @@ namespace AM.Services.Identity.Services
             var user = await _userRepository.GetAsync(userId);
             if (user == null)
             {
-                throw new DShopException(Codes.UserNotFound, 
+                throw new AMException(Codes.UserNotFound, 
                     $"User with id: '{userId}' was not found.");
             }
             if (!user.ValidatePassword(currentPassword, _passwordHasher))
             {
-                throw new DShopException(Codes.InvalidCurrentPassword, 
+                throw new AMException(Codes.InvalidCurrentPassword, 
                     "Invalid current password.");
             }
             user.SetPassword(newPassword, _passwordHasher);

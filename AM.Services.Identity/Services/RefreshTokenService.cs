@@ -39,7 +39,7 @@ namespace AM.Services.Identity.Services
             var user = await _userRepository.GetAsync(userId);
             if (user == null)
             {
-                throw new DShopException(Codes.UserNotFound, 
+                throw new AMException(Codes.UserNotFound, 
                     $"User: '{userId}' was not found.");
             }
             await _refreshTokenRepository.AddAsync(new RefreshToken(user, _passwordHasher));
@@ -50,18 +50,18 @@ namespace AM.Services.Identity.Services
             var refreshToken = await _refreshTokenRepository.GetAsync(token);
             if (refreshToken == null)
             {
-                throw new DShopException(Codes.RefreshTokenNotFound, 
+                throw new AMException(Codes.RefreshTokenNotFound, 
                     "Refresh token was not found.");
             }
             if (refreshToken.Revoked)
             {
-                throw new DShopException(Codes.RefreshTokenAlreadyRevoked, 
+                throw new AMException(Codes.RefreshTokenAlreadyRevoked, 
                     $"Refresh token: '{refreshToken.Id}' was revoked.");
             }
             var user = await _userRepository.GetAsync(refreshToken.UserId);
             if (user == null)
             {
-                throw new DShopException(Codes.UserNotFound, 
+                throw new AMException(Codes.UserNotFound, 
                     $"User: '{refreshToken.UserId}' was not found.");
             }
             var claims = await _claimsProvider.GetAsync(user.Id);
@@ -77,7 +77,7 @@ namespace AM.Services.Identity.Services
             var refreshToken = await _refreshTokenRepository.GetAsync(token);
             if (refreshToken == null || refreshToken.UserId != userId)
             {
-                throw new DShopException(Codes.RefreshTokenNotFound, 
+                throw new AMException(Codes.RefreshTokenNotFound, 
                     "Refresh token was not found.");
             }
             refreshToken.Revoke();

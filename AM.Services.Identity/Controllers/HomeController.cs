@@ -8,6 +8,6 @@ namespace AM.Services.Identity.Controllers
     {
         [HttpGet]
         [AllowAnonymous]
-        public IActionResult Get() => Ok("FA Identity Service");
+        public IActionResult Get() => Redirect("~/docs");
     }
 }

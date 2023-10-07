@@ -40,7 +40,7 @@ namespace AM.Common.Mvc
             var message = "There was an error.";
             switch(exception)
             {
-                case DShopException e:
+                case AMException e:
                     errorCode = e.Code;
                     message = e.Message;
                     break;

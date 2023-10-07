@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(Configuration)' == 'Release'">
+    <PackageReference Include="DShop.Common_" Version="2.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Messages\**" />
+    <Content Remove="Messages\**" />
+    <EmbeddedResource Remove="Messages\**" />
+    <None Remove="Messages\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Handlers\DeleteProductHandler.cs" />
+    <Compile Remove="Handlers\ReleaseProductsHandler.cs" />
+    <Compile Remove="Handlers\ReserveProductsHandler.cs" />
+    <Compile Remove="Handlers\UpdateProductHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Messages\Commands\Project\CreateProject.cs" />
+    <Compile Include="Messages\Commands\Project\DeleteProject.cs" />
+    <Compile Include="Messages\Commands\Project\UpdateProject.cs" />
+    <Compile Include="Messages\Events\CreateProjectRejected.cs" />
+    <Compile Include="Messages\Events\ProjectCreated.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.4.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AM.Services.Common\AM.Common.csproj" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptTarget>ESNext</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+</Project>

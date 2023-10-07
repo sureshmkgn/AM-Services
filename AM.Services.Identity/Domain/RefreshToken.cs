@@ -29,7 +29,7 @@ namespace AM.Services.Identity.Domain
         {
             if (Revoked)
             {
-                throw new DShopException(Codes.RefreshTokenAlreadyRevoked, 
+                throw new AMException(Codes.RefreshTokenAlreadyRevoked, 
                     $"Refresh token: '{Id}' was already revoked at '{RevokedAt}'.");
             }
             RevokedAt = DateTime.UtcNow;

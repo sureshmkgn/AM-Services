@@ -27,12 +27,12 @@ namespace AM.Services.Identity.Domain
         {
             if (!EmailRegex.IsMatch(email))
             {
-                throw new DShopException(Codes.InvalidEmail, 
+                throw new AMException(Codes.InvalidEmail, 
                     $"Invalid email: '{email}'.");
             }
             if (!Domain.Role.IsValid(role))
             {
-                throw new DShopException(Codes.InvalidRole, 
+                throw new AMException(Codes.InvalidRole, 
                     $"Invalid role: '{role}'.");
             }        
             Id = id;
@@ -46,7 +46,7 @@ namespace AM.Services.Identity.Domain
         {
             if (string.IsNullOrWhiteSpace(password))
             {
-                throw new DShopException(Codes.InvalidPassword, 
+                throw new AMException(Codes.InvalidPassword, 
                     "Password can not be empty.");
             }             
             PasswordHash = passwordHasher.HashPassword(this, password);
